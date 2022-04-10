@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PERL5_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.10" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <perl5>
+      <path value="file://$MODULE_DIR$/lib" type="perl-library" />
+    </perl5>
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/illuminate/macroable" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/illuminate/console" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/illuminate/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/doctrine/inflector" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Python 3.10 interpreter library" level="application" />
+  </component>
+</module>

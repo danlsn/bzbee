@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+        <option name="CODING_STANDARD" value="Custom" />
+        <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/PycharmProjects/wp-dev-danlsn-com-au/phpcs.xml" />
+        <option name="EXTENSIONS" value="php,js,css,inc" />
+      </inspection_tool>
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="Perl5LocalSettings">
+    <option name="perlInterpreter" value="Local, System: Perl 5.16.0" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/wordpress/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/composer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/doctrine/inflector" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bzbee.iml" filepath="$PROJECT_DIR$/bzbee.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
