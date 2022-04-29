@@ -71,16 +71,21 @@ He frequently comments on questions regarding the client (he designed it after a
 including an internal presentation on the design of the bz_done log files. I love understanding how software works, and
 the level of transparency of the staff and the software makes it possible.
 
-### My Goals
+# My Goals
 
 With that being said, the GUI doesn't offer much information about what's happening during your backup. It tells you a
 little bit but there is so much more it could say! Now, I realise that most of my issues are caused by the sheer size of
 my backup, and the depth of the historical bz_done files I have. My Backblaze.bzpkg folder is just under 50GB which I
-understand is very very unusual.
+understand is very, very unusual.
 <div style="text-align: center;"><img alt="Screenshot of Backblaze GUI" height="300" src="img/CleanShot 2022-04-10 at 11.08.14@2x.png" width="400"/></div>
 
 I'd like to have more information, more statistics, better progress bars etc.
 
+- I want to know more about my remaining files
+    - What drives are missing the most files?
+    - What much data, per drive, is remaining?
+    - What is the % progress of the current backup?
+    - A bz_todo file that updates live and shows the files yet to be backed up
 - I want to know how many files I uploaded today.
 - I want to know how much their 'Forever Version History' is costing me and which files exactly.
 - I want to know exactly how much I'm exploiting Backblaze's generous business model, ie how much data do I have backed
@@ -88,7 +93,10 @@ I'd like to have more information, more statistics, better progress bars etc.
 - I'd like a more elegant way to trigger a full re-scan and backup using the bztransmit tool.
     - And, I want to know how much longer it's going to take based on the last time it ran.
 - I want to know **where** my data is, like which cluster, vault, and tome in their datacenter.
+- One day, I'd like to design a more comprehensive GUI, but I'll need to learn how to do that first!
 
-## Next steps...
+# Next steps...
+
+[//]: # (TODO: Look into Perl TUI Libraries: Tickit & Curses::UI)
 
 Let's see how this goes...
