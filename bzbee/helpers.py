@@ -7,6 +7,11 @@ def get_remaining_backup() -> list:
     tree = ET.parse("../data/in/bzreports/bzstat_remainingbackup.xml")
     root = tree.getroot()
     contents = [node.attrib for node in root.iter("bzvolume")]
+
+    contents_new = []
+    for node in root.iter("bzvolume"):
+        contents_new.append(node.attrib)
+
     return contents
 
 
@@ -77,8 +82,8 @@ def main():
    :return:
    """
     all_stats = get_all_volume_stats()
-    print(all_stats['v0008f0062df449b01337cd30611'])
-    bz_vol = BzVolume(all_stats['v0008f0062df449b01337cd30611'])
+    print(all_stats["v0008f0062df449b01337cd30611"])
+    bz_vol = BzVolume(all_stats["v0008f0062df449b01337cd30611"])
     pass
 
 
