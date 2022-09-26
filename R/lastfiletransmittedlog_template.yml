@@ -1,0 +1,9 @@
+template: '{{ date date_time }} - {{ size size }} - '
+classes:
+  date: ''
+  
+  '2022-09-22 16:17:14 -  large  - throttle manual   11 -   836 kBits/sec - 10453034 bytes - Chunk 000a3 of /Volumes/ProjectFS/Project-Library-2022/[834250] FGE—Leopard Lodge Photoshoot/A0_Originals/NIKON_Z6_2/167NZ6_2/DSC_0324.MOV'
+  '2022-09-18 23:59:44 -  large  - throttle manual   11 -  1384 kBits/sec - 10520933 bytes - Multiple small files batched in one request, the 3 files are listed below:'
+  '2022-09-18 23:59:44 -                                                                   - /Volumes/ProjectFS/Project-Library-2022/[835310] FGE—Werribee Zoo Secret Garden/A0_Originals/322ND750/DAN_3846.JPG'
+  '2022-09-18 23:59:44 -                                                                   - /Users/danlsn/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/python/debugpy/_vendored/pydevd/pydevd_attach_to_process/inject_dll_amd64.pdb'
+  '2022-09-18 23:59:44 -                                                                   - /Volumes/MAISIE/PictureFSv2/_Inbox/AnyTrans/DCIM/2018-03-01/109APPLE/109APPLE_IMG_9604.JPG'
